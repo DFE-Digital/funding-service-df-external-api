@@ -34,7 +34,7 @@ namespace DigitalForms.API
         {            
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
-            services.AddTransient(typeof(Serializer), typeof(Serializer));
+            services.AddTransient<DigitalForms.BL.Interfaces.ISerializer, DigitalForms.BL.Serialized.Models.Serializer>();
         }
 
 

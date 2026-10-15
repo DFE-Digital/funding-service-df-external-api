@@ -35,7 +35,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DigitalForms.BL.Serialized.Models
 {
-    public class Serializer : ComparersFactory
+    public class Serializer : ComparersFactory, DigitalForms.BL.Interfaces.ISerializer
     {
         private readonly IUnitOfWork _unitOfWork;
         public Serializer(IUnitOfWork unitOfWork)

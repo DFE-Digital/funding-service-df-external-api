@@ -14,8 +14,8 @@ namespace DigitalForms.API.Controllers
     public class DFController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly Serializer _objserializer;
-        public DFController(IUnitOfWork unitOfWork, Serializer objserializer)
+        private readonly DigitalForms.BL.Interfaces.ISerializer _objserializer;
+        public DFController(IUnitOfWork unitOfWork, DigitalForms.BL.Interfaces.ISerializer objserializer)
         {
             _unitOfWork = unitOfWork;
             _objserializer = objserializer;
