@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalForms.BL", "DigitalF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalForms.DL", "Digitalforms.DL\DigitalForms.DL.csproj", "{FC0B6BE9-CE9E-4D96-9276-CDDC563E3B89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalForms.Test", "DigitalForms.Test\DigitalForms.Test.csproj", "{BE42847D-9CA3-98EA-8961-EBBCA9673B43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FC0B6BE9-CE9E-4D96-9276-CDDC563E3B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0B6BE9-CE9E-4D96-9276-CDDC563E3B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0B6BE9-CE9E-4D96-9276-CDDC563E3B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE42847D-9CA3-98EA-8961-EBBCA9673B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE42847D-9CA3-98EA-8961-EBBCA9673B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE42847D-9CA3-98EA-8961-EBBCA9673B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE42847D-9CA3-98EA-8961-EBBCA9673B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
